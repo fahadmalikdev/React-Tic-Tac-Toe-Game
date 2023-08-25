@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.status {
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-weight: 500;
+  border: 2px darkgrey solid;
+  width: 23%;
+  padding: 10px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  font-size: 112px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.square::before {
+  content: attr(data-value);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  margin: 50px;
+}
+
+.game-info {
+  margin-top: 40px;
+  padding: 10px;
+  width: 25%;
+  height: 25%;
+  border: 2px darkgrey solid;
+}
+
+.game-info h3 {
+  margin: 10px 0px;
+}
+
+.game-info p {
+  margin: 5px 0px;
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+}
+
+.moveBtn {
+  cursor: pointer;
+}
