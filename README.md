@@ -1,6 +1,6 @@
 # Tic Tac Toe React App
 
-![screenshot](https://github.com/fahadmalikdev/React-Tic-Tac-Toe-Game/assets/33700606/4c0f037e-ff5b-4f4e-9109-d9275adf3bd4)
+![Screenshot](https://github.com/fahadmalikdev/React-Tic-Tac-Toe-Game/assets/33700606/fcca7b0c-bfcd-4cc2-bb07-93da6890e55b)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
